@@ -1,3 +1,20 @@
 # Linear-Regression
 ## TO-DO:
-1. Implement batch gradient descent method for optimizing J(θ). Choose an appropriate learning rate and the stopping criteria (as a function of the change in the value of J(θ)). You can initialize the parameters as θ = ⃗0 (the vector of all zeros).
+Implement least squares linear regression to predict density of wine based on its acidity.
+
+## Datasets:
+- [linearX.csv](https://github.com/aarunishsinha/Linear-Regression/blob/main/data/linearX.csv) - acidity of the wine
+- [linearY.csv](https://github.com/aarunishsinha/Linear-Regression/blob/main/data/linearY.csv) - density of the wine
+
+## Inference:
+- Implemented batch gradient descent for optimising the least squares loss function with learning rate = 0.01 and stopping criteria as:
+```
+(Old_cost - New_cost) < epsilon
+```
+`epsilon` is a small positive quantity
+Final Set of parameters obtained:
+```
+θ_1 = 0.0007777711241840175
+θ_0 = 0.9965210161010347
+```
+![alt text](https://github.com/aarunishsinha/Linear-Regression/blob/main/out/q1_b.png "Hypothesis Function")
