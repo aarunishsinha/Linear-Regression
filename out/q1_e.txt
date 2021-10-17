@@ -1,0 +1,10 @@
+Learning Rate = 0.001
+Theta_1 = 0.0007777711241538023
+Theta_0 = 0.9963043042174703
+Learning Rate = 0.025
+Theta_1 = 0.0007777711241846729
+Theta_0 = 0.9965588230057234
+Learning Rate = 0.1
+Theta_1 = 0.0007777711241847888
+Theta_0 = 0.9965936283759845
+As the learning rate increases the number of iterations in gradient descent decreases such that after a certain value the value of descent step gets so large that the it never converges.
